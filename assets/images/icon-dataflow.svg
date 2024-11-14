@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <!-- Background Circle -->
+  <circle cx="75" cy="75" r="70" fill="url(#grad-background)" />
+  
+  <!-- Pipeline Paths -->
+  <path d="M40,75 Q60,45 80,75 Q100,105 120,75" stroke="url(#grad-pipeline)" stroke-width="8" fill="none" />
+  <path d="M80,75 Q90,85 100,75" stroke="url(#grad-pipeline)" stroke-width="8" fill="none" />
+  
+  <!-- Arrows indicating flow -->
+  <polygon points="100,75 110,80 110,70" fill="url(#grad-arrow)" />
+  <polygon points="80,75 70,80 70,70" fill="url(#grad-arrow)" />
+  
+  <!-- Dataflow Elements -->
+  <circle cx="40" cy="75" r="6" fill="url(#grad-data)" />
+  <circle cx="120" cy="75" r="6" fill="url(#grad-data)" />
+  
+  <!-- Definitions for Gradients -->
+  <defs>
+    <!-- Background Gradient -->
+    <!-- <linearGradient id="grad-background" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066ff" />
+      <stop offset="100%" stop-color="#00ccff" />
+    </linearGradient>
+     -->
+    <!-- Pipeline Gradient -->
+    <linearGradient id="grad-pipeline" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9e2c" />
+      <stop offset="100%" stop-color="#ffcc00" />
+    </linearGradient>
+    
+    <!-- Arrow Gradient -->
+    <linearGradient id="grad-arrow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffcc00" />
+      <stop offset="100%" stop-color="#ff9e2c" />
+    </linearGradient>
+    
+    <!-- Dataflow Element Gradient -->
+    <linearGradient id="grad-data" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4caf50" />
+      <stop offset="100%" stop-color="#8bc34a" />
+    </linearGradient>
+  </defs>
+</svg>
